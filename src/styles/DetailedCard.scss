@@ -1,0 +1,63 @@
+.Container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(90vh - 70px - 50px);
+    position: relative;
+    top: 70px;
+
+    .DetailedCard {
+        width: 75%;
+        height: 90%;
+        border: 1px red black;
+        padding: 20px;
+        box-sizing: border-box;
+        max-width: 745;
+        margin-top: 70px;
+        margin-bottom: 30px;
+        text-align: center;
+        //background-color: rgba($color: #000000, $alpha: 0.5);
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.8);
+        ;
+
+        img {
+            margin: auto;
+        }
+
+        .media {
+            height: 340;
+        }
+
+        .div1 {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0px;
+        }
+
+        .lang {
+            text-transform: capitalize;
+            margin-right: 0.9rem;
+        }
+
+        .spann {
+            color: gray
+        }
+
+        .langfam {
+            display: flex;
+            flex-direction: row;
+        }
+
+        img {
+            width: 90%;
+            height: 50%;
+        }
+
+        .link {
+            margin-top: 20px;
+        }
+
+    }
+}

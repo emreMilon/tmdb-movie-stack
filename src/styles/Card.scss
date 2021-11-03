@@ -1,0 +1,24 @@
+.Card {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+    &:hover {
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.8);
+        cursor: pointer;
+    }
+    
+
+    .overview {
+        width: 100%;
+        white-space: normal;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        /* number of lines to show */
+        line-clamp: 5;
+        -webkit-box-orient: vertical;
+    }
+
+}

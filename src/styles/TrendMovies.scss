@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+    position: relative;
+    top: 100px
+}
+
+.TrendMovies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: "%80";
+    height: 92vh;
+
+    .TrendList {
+        display: flex;
+        flex-direction: column;
+        height: 60vh;
+        width: 350px;
+        border: 1px solid black;
+        overflow: scroll;
+        overflow-x: hidden;
+
+        li {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+
+            img {
+                height: 30px;
+                border-radius: 30px;
+                margin-right: 5px;
+
+            }
+
+            .title {
+                width: 60%;
+                text-align: left;
+            }
+
+            p {
+                margin-right: 5px;
+                font-size: smaller;
+                cursor: pointer;
+            }
+        }
+
+
+
+    }
+}
